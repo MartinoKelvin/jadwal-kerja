@@ -1,0 +1,55 @@
+{
+  "_catatan": "File jadwal Martino. Bagian 'rutin' = agenda mingguan yang berulang. Bagian 'acara' = sekali jalan (sempro, ujian, janji). Bagian 'tugas' = deadline tugas. Format jam HH:MM, tanggal YYYY-MM-DD, deadline tugas YYYY-MM-DD HH:MM. Kamu boleh edit file ini langsung; tinggal bilang ke Hermes kalau mau saya yang tambahkan.",
+  "versi": 1,
+  "zona_waktu": "Asia/Jakarta",
+
+  "rutin": [
+    {"hari": "Senin",  "mulai": "07:00", "selesai": "09:00", "judul": "Lari",               "lokasi": "",         "jenis": "olahraga"},
+    {"hari": "Senin",  "mulai": "10:00", "selesai": "21:00", "judul": "Kerja TA di kafe",   "lokasi": "kafe",     "jenis": "ta"},
+
+    {"hari": "Selasa", "mulai": "10:00", "selesai": "13:00", "judul": "Kerja TA",           "lokasi": "kafe",     "jenis": "ta"},
+    {"hari": "Selasa", "mulai": "13:00", "selesai": "16:00", "judul": "Bimbingan TA",       "lokasi": "",         "jenis": "bimbingan"},
+    {"hari": "Selasa", "mulai": "16:00", "selesai": "21:00", "judul": "Kerja TA",           "lokasi": "kafe",     "jenis": "ta"},
+
+    {"hari": "Rabu",   "mulai": "07:30", "selesai": "10:10", "judul": "Deep Learning",      "lokasi": "GK2 123",  "jenis": "kuliah", "dosen": "Martin"},
+    {"hari": "Rabu",   "mulai": "13:00", "selesai": "15:40", "judul": "Machine Learning",   "lokasi": "GK2 121",  "jenis": "kuliah", "dosen": "Rahman"},
+
+    {"hari": "Kamis",  "mulai": "07:00", "selesai": "09:00", "judul": "Lari",               "lokasi": "",         "jenis": "olahraga"},
+    {"hari": "Kamis",  "mulai": "10:00", "selesai": "21:00", "judul": "Kerja TA di kafe",   "lokasi": "kafe",     "jenis": "ta"},
+
+    {"hari": "Jumat",  "mulai": "10:00", "selesai": "21:00", "judul": "Kerja TA di kafe",   "lokasi": "kafe",     "jenis": "ta"},
+
+    {"hari": "Sabtu",  "mulai": "07:00", "selesai": "09:00", "judul": "Lari",               "lokasi": "",         "jenis": "olahraga"},
+    {"hari": "Sabtu",  "mulai": "10:00", "selesai": "21:00", "judul": "Kerja TA di kafe",   "lokasi": "kafe",     "jenis": "ta"},
+
+    {"hari": "Minggu", "mulai": "07:00", "selesai": "10:00", "judul": "Gereja",             "lokasi": "",         "jenis": "ibadah"}
+  ],
+
+  "acara": [
+    {"tanggal": "2026-11-13", "mulai": "14:00", "selesai": "15:30", "judul": "Nonton seminar proposal (sempro)", "lokasi": "D304", "jenis": "sempro"}
+  ],
+
+  "tugas": [],
+
+  "_catatan_pengecualian": "Aturan khusus satu tanggal: batal = batalkan agenda rutin hari itu, ganti = ubah jam agenda rutin, sisip = tambah agenda khusus di tanggal itu. Sisip juga ikut dapat pengingat 1 jam sebelum.",
+  "pengecualian": [
+    {
+      "tanggal": "2026-11-12",
+      "batal": ["Lari"],
+      "ganti": [{"judul": "Kerja TA di kafe", "mulai": "12:00"}],
+      "sisip": [
+        {"mulai": "10:00", "selesai": "12:00", "judul": "Bimbingan TA", "lokasi": "", "jenis": "bimbingan"}
+      ]
+    },
+    {
+      "tanggal": "2026-11-13",
+      "batal": ["Kerja TA di kafe"],
+      "sisip": [
+        {"mulai": "10:00", "selesai": "12:00", "judul": "Bimbingan TA", "lokasi": "", "jenis": "bimbingan"},
+        {"mulai": "12:00", "selesai": "14:00", "judul": "Kerja TA di kafe", "lokasi": "kafe", "jenis": "ta"},
+        {"mulai": "16:00", "selesai": "18:00", "judul": "Lari", "lokasi": "", "jenis": "olahraga"},
+        {"mulai": "18:00", "selesai": "21:00", "judul": "Kerja TA di kafe", "lokasi": "kafe", "jenis": "ta"}
+      ]
+    }
+  ]
+}
