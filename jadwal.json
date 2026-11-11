@@ -29,7 +29,22 @@
     {"tanggal": "2026-11-13", "mulai": "14:00", "selesai": "15:30", "judul": "Nonton seminar proposal (sempro)", "lokasi": "D304", "jenis": "sempro"}
   ],
 
-  "tugas": [],
+  "tugas": [
+    {
+      "judul": "Tugas Kelompok Berbasis Kasus Ke-3",
+      "matkul": "Machine Learning",
+      "jenis": "kelompok",
+      "deadline": "2026-11-17 23:59",
+      "catatan": "dari kuliah2.itera.ac.id - due Selasa 17 Nov 2026 23:59"
+    },
+    {
+      "judul": "Studio Proyek 3: Fine-tuning Transformer Pretrained untuk NLP",
+      "matkul": "Deep Learning",
+      "jenis": "proyek",
+      "deadline": "2026-11-20 10:00",
+      "catatan": "dari kuliah2.itera.ac.id - dibuka 5 Nov 2026, due Jumat 20 Nov 2026 10:00"
+    }
+  ],
 
   "_catatan_pengecualian": "Aturan khusus satu tanggal: batal = batalkan agenda rutin hari itu, ganti = ubah jam agenda rutin, sisip = tambah agenda khusus di tanggal itu. Sisip juga ikut dapat pengingat 1 jam sebelum.",
   "pengecualian": [
