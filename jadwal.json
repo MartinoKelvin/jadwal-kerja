@@ -95,6 +95,7 @@
     },
     {
       "tanggal": "2026-11-15",
+      "batal": ["Gereja"],
       "sisip": [
         {"mulai": "13:00", "selesai": "21:00", "judul": "Kerja TA di kafe", "lokasi": "kafe", "jenis": "ta"}
       ]
