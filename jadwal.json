@@ -27,7 +27,8 @@
 
   "acara": [
     {"tanggal": "2026-11-13", "mulai": "14:00", "selesai": "15:30", "judul": "Nonton seminar proposal (sempro)", "lokasi": "D304", "jenis": "sempro"},
-    {"tanggal": "2026-11-26", "mulai": "10:00", "selesai": "12:00", "judul": "Sidang sempro (saya penguji)", "lokasi": "", "jenis": "sempro"}
+    {"tanggal": "2026-11-26", "mulai": "10:00", "selesai": "12:00", "judul": "Sidang sempro (saya penguji)", "lokasi": "", "jenis": "sempro"},
+    {"tanggal": "2026-11-15", "mulai": "12:00", "selesai": "12:30", "judul": "Chat perwakilan ormawa", "lokasi": "", "jenis": "lain"}
   ],
 
   "tugas": [
