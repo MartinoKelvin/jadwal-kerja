@@ -44,6 +44,12 @@
       "jenis": "proyek",
       "deadline": "2026-11-20 10:00",
       "catatan": "dari kuliah2.itera.ac.id - dibuka 5 Nov 2026, due Jumat 20 Nov 2026 10:00"
+    },
+    {
+      "judul": "Submit TA",
+      "jenis": "ta",
+      "deadline": "2026-11-23 19:00",
+      "catatan": "target submit TA, Senin 23 Nov 2026 19:00"
     }
   ],
 
@@ -53,6 +59,11 @@
       "tanggal": "2026-11-24",
       "judul": "Follow up dosen penguji sempro",
       "teks": "Konfirmasi ke dosen penguji bahwa kamu penguji sempro Kamis 26 Nov 10.00 - sekalian siapkan chat-nya."
+    },
+    {
+      "tanggal": "2026-11-23",
+      "judul": "Submit TA",
+      "teks": "Submit TA hari ini, target jam 19.00."
     },
     {
       "tanggal": "2026-11-26",
